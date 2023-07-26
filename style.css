@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Nunito:wght@300&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color:#f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.header{
+   background-color: rgba(39, 194, 166, 0.702);
+   /* background-image: linear-gradient(to right, #359381,white); */
+   position: fixed;
+   top: 5%;
+   left: 10%;
+   width: 80%;
+   border-radius: 20px;
+   padding: 1.5em 10em;
+   display: flex;
+   justify-content:flex-start;
+   align-items: center;
+   z-index: 100;
+}
+.logo span{
+    color:#fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.logo {
+    font-size:xx-large;
+    font-weight:900;
+    color:#000;
+}
+.navbar {
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+} 
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin:0 1em;
+    padding:5px 15px;
+    font-weight: 600;
+    border-radius:10px;
+}
+.navbar a:hover, 
+.navbar a.active{
+    background-color:rgb(28, 106, 92);
+    color: #f9f9f9;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero-section{
+    position: fixed;
+    top:60%;
+    font-size: 2em;
+    color:#fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) ;
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    pointer-events: none;
+}
+
+#myphoto{
+    position: fixed;
+    top: 13%;
+    left: 41%;
+    height: 380px;
+    width: 230px;
+    border-radius: 500px;
+    pointer-events: none;
+}
+
+.project{
+ position: relative;
+ background: #003329;
+ padding: 100px;
+}
+.project h1{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.project p{
+   font-size: 1em;
+   color: #fff;
+   font-weight: 300;
+}
