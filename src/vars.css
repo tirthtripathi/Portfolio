@@ -1,0 +1,17 @@
+:root{
+    /* colors */
+    --color-text : #fff;
+    /* --color-primary:#576cbc; */
+    --color-primary:#AAC8A7;
+    /* --color-secondary:#19376d; */
+    --color-secondary:#7C9070;
+    /* --color-dark:#0b2447; */
+    --color-dark:#304D30;
+    /* --color-bg:#04152d; */
+    --color-bg:#163020;
+    
+    /* font */
+
+    --font-nunito:"Nunito";
+
+}
