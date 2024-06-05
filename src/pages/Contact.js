@@ -44,7 +44,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="flex flex-row gap-4 mt-4 justify-center">
-              <a href="https://www.linkedin.com/in/tirth-tripathi-c12/">
+              <a href="www.linkedin.com/in/tirthbtripathi">
                 <img
                   alt="info"
                   className="w-10 max-[992px]:w-7 max-[455px]:w-5"
