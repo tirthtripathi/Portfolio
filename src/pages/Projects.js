@@ -19,7 +19,7 @@ export default function Projects({ setModal, setProjectNo }) {
       id="projects"
       className="px-[10%] max-[1300px]:px-[5%]  py-20 max-[455px]:py-10 bg-black text-white w-[100%]"
     >
-      <div className="font-bold text-4xl max-[1300px]:text-3xl max-[992px]:text-2xl">
+      <div className=" font-bold text-4xl max-[1300px]:text-3xl max-[992px]:text-2xl">
         Projects
       </div>
       <div className="flex max-[940px]:flex-col mt-10 gap-4">
@@ -43,7 +43,7 @@ export default function Projects({ setModal, setProjectNo }) {
           </div>
         </div>
         <div className="relative max-[940px]:flex max-[940px]:justify-end">
-          <h1 className=" text-2xl">Panchayat</h1>
+         <a href="https://panchayat-frn1.onrender.com/" target="_blank"><h1 className=" underline underline-offset-2 font-semibold text-2xl text-yellow-400">Panchayat</h1></a> 
           <p>Real time Chat app using MERN stack, Socket.io and ChakraUI</p><br/>
           <ul>
             <li>Real-timechat <b className=" text-yellow-500">(one-to-one and groupchats)</b></li>
@@ -56,8 +56,8 @@ export default function Projects({ setModal, setProjectNo }) {
       
       <div className=" flex gap-4 max-[940px]:flex-col  mt-10 overflow-auto">
         <div className="relative max-[940px]:flex">
-        <h1 className=" text-2xl">Schedule Buddy</h1>
-          <p>Time Table Generation using React.js, React-Router-Dom, TailwindCSS, Axios </p><br/>
+        <a href="https://miniproject-frontend-theta.vercel.app/" target="_blank">   <h1 className=" underline underline-offset-2 font-semibold text-2xl text-yellow-400">Schedule Buddy</h1> </a>
+          <p>Time Table Generation using React.js, React-Router-Dom, TailwindCSS, Axios </p><br/> 
           <ul>
           
             <li><b className=" text-yellow-500">Dynamic</b> timetable generation tool.</li>
