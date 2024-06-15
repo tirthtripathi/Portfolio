@@ -4,7 +4,6 @@ export default function Header() {
 
   const handleClickScroll = (value) => {
     const element = document.getElementById(value);
-    console.log(element)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
